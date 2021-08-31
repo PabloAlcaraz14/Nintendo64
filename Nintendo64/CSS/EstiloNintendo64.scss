@@ -1,0 +1,92 @@
+// Variables //
+$ancho: 100%;
+html {font-size: 62.5%;
+}
+* {box-sizing: border-box;
+font-family: 'Open Sans', sans-serif}
+body#index {font-family: 'Open Sans', sans-serif;
+    background-image: url("black1.jpg");
+    ;}
+body#General {font-family: 'Open Sans', sans-serif;
+background-image: url("green.png");
+}
+body#Juegos {font-family: 'Open Sans', sans-serif;
+background-image: url("yellow.jpg");
+}
+body#Accesorios {font-family: 'Open Sans', sans-serif;
+background-image: url("red.jpg");}
+
+body#Extras {font-family: 'Open Sans', sans-serif;
+background-image: url("blue.jpg");}
+
+.logo__principal{
+h1 {margin: 3%;
+text-align: center;}
+}
+
+video {display: flex;
+width: 100%}
+
+.menuControles {position: sticky;
+top: 0px;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+height: 14vh;
+margin: 3%;
+}
+
+.botonNavegacion1 {  background-color:transparent; 
+color: black; 
+border-radius: 40px;
+transition: 1s;
+&:hover {background-color:rgba(2,123,70,255)
+    ;
+    color: white;}
+}
+
+.botonNavegacion2 {  background-color:transparent; 
+color: black; 
+border-radius: 40px;
+transition: 1s;
+&:hover {background-color:rgba(255,211,2,255)
+    ;
+    color: white;}
+}
+
+.botonNavegacion3 {  background-color:transparent; 
+color: black; 
+border-radius: 40px;
+transition: 1s;
+&:hover {background-color:rgba(198,38,26,255)
+    ;
+    color: white;}
+}
+
+.botonNavegacion4 {  background-color:transparent; 
+color: black; 
+border-radius: 40px;
+transition: 1s;
+&:hover{background-color:rgba(2,48,134,255)
+    ;
+    color: white;}
+}
+
+.navegacion {
+width: 9rem;
+height: 8rem;
+background-color:transparent;
+    
+}
+h3 {display: inline;
+color: white;
+text-decoration: none;
+margin-left: 2%;
+text-decoration: none;
+}
+
+.imagenSlogan {width: 100%;}
+
+
+
+
